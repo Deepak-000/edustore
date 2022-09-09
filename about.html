@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Education Store | About</title>
+  <libootstrap.min.css" rel="stylesheet">
+  <listyle.css" rel="stylesheet">
+  <link rel="stylesheet"href="https://cdnjs.cloudflare.cfont-awesoall.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.cfont-awesofont-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://use.fontawesome.all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.cfont-awesofont-awesome.min.css">
+  <style>
+    #container {
+    height:350px; 
+    position:relative; 
+    overflow:hidden;
+  }
+  
+  .photobanner {
+    position:absolute; 
+    top:0px; 
+    left:0px; 
+    display: flex;
+    overflow:hidden; 
+    white-space: nowrap;
+    animation: bannermove 20s alternate infinite;
+  }
+  
+  .photobanner .testimonial-wrap {   
+    position: relative; 
+    width: 80% !important;
+    margin: 0 1.5em ;
+  }
+  .testimonial-item{
+    box-shadow: 0px 6px 13px 0px rgba(211, 211, 211, 0.616);
+  }
+  @keyframes bannermove {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(-70%, 0);
+    }
+  }
+  </style> 
+</head>
+
+<body>
+
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center">
+
+      <h1 class="logo me-auto"><a href="index.html">Edu Store</a></h1>
+      <button type="button" class="btn btn-primary toggle" data-toggle="modal" data-target="#exampleModal">
+        <i class="fa fa-bars"></i>
+      </button>
+      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close btn btn-primary" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <ul>
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="trainers.html">Trainers</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+        <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a  href="index.html">Home</a></li>
+          <li><a class="active" href="about.html">About</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="trainers.html">Trainers</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+
+      <a href="courses.html" class="get-started-btn">Get Started</a>
+
+    </div>
+  </header>
+
+  <main id="main">
+    <div class="breadcrumbs" data-aos="fade-in">
+      <div class="container">
+        <h2>About Us</h2>
+        <h4 style="color: rgb(14, 112, 55);">
+          Educational Points means points earned toward the State Correction Officer's
+          Professional Certificate Program for studies completed, with passing scores achieved,
+          for semester hour or quarter hour credit at a regionally accredited institution of higher education.
+          Each semester hour of college credit equals one educational point and each quarter hour of college credit
+          equals two-thirds of an educational point.
+        </h4>
+      </div>
+    </div>
+    <section id="about" class="about">
+      <div class="container" >
+
+        <div class="row">
+          <div class="col-lg-6 order-1 order-lg-2" >
+            <img src="about.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+            <h3 style="color:rgb(30, 194, 104) ;">Education is a foundation for the development and progress of any society. It is a base upon which the whole building of human development stands.</h3>
+            <p class="fst-italic">Education not only makes us able to learn about history, science, math, geography, and other subjects however it makes us smart enough to learn how to live life and handle bad situations            </p>
+            <ul>
+              <li><i class="fa fa-check-circle"></i>  An educated person always works for the benefits of humanity.</li>
+              <li><i class="fa fa-check-circle"></i> The educated persons have the wisdom and knowledge to work for the betterment of the country.</li>
+              <li><i class="fa fa-check-circle"></i> A high-valued education system encourages freshness of approach. Education should bring out the best in the student. It should be able to bring new ideas and concepts.</li>
+            </ul>
+            <p>Education is the only key to success in the life of an individual. It is a continuous and secure process of achieving goals which not only helps us in obtaining knowledge but also success in life.  </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    
+    
+    <section id="testimonials" class="testimonials">
+      <div class="container">
+        <div class="section-title">
+          <h2>Testimonials</h2>
+          <p>What are they saying</p>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+              <div id="container">
+                <div class="photobanner">
+                    <div class="testimonial-wrap">
+                      <div class="testimonial-item">
+                        <img src="testimonials-1.jpg" class="testimonial-img" alt="">
+                        <h3>Saul Goodman</h3>
+                        <h4>Ceo &amp; Founder</h4>
+                        <p>
+                          <i class="fa fa-quote-left"></i>
+                          Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. <br>
+                           Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                          <i class="fa fa-quote-right"></i>
+                        </p>
+                      </div>
+                    </div>
+                    <!--  -->
+                      <div class="testimonial-wrap">
+                          <div class="testimonial-item">
+                            <img src="testimonials-2.jpg" class="testimonial-img" alt="">
+                            <h3>Sara Wilsson</h3>
+                            <h4>Designer</h4>
+                            <p>
+                              <i class="fa fa-quote-left"></i>
+                              Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid 
+                              cillum eram <br> malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                              <i class="fa fa-quote-right"></i>
+                            </p>
+                          </div>
+                      </div>
+                    <!--  -->
+                      <div class="testimonial-wrap">
+                          <div class="testimonial-item">
+                            <img src="testimonials-3.jpg" class="testimonial-img" alt="">
+                            <h3>Jena Karlis</h3>
+                            <h4>Store Owner</h4>
+                            <p>
+                              <i class="fa fa-quote-left"></i>
+                              Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis <br> minim tempor
+                               labore quem eram duis noster aute amet eram fore quis sint minim.
+                              <i class="fa fa-quote-right"></i>
+                            </p>
+                          </div>
+                      </div>
+                    <!--  -->
+                      <div class="testimonial-wrap">
+                        <div class="testimonial-item">
+                          <img src="testimonials-5.jpg" class="testimonial-img" alt="">
+                          <h3>John Larson</h3>
+                          <h4>Entrepreneur</h4>
+                          <p>
+                              <i class="fa fa-quote-left"></i>
+                            Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa <br>
+                             labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+                              <i class="fa fa-quote-right"></i>
+                          </p>
+                        </div>
+                      </div>
+                    <!--  -->
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+  <footer id="footer">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+             <h3>Education Store</h3>
+            <p>
+              India <br><br>
+              <strong>Phone:</strong> +91 3449439XXX<br>
+              <strong>Email:</strong> email-name@email.com<br>
+            </p>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="fa fa-chevron-right"></i> <a href="index.html">Home</a></li>
+              <li><i class="fa fa-chevron-right"></i> <a href="about.html">About us</a></li>
+              <li><i class="fa fa-chevron-right"></i> <a href="courses.html">Courses</a></li>
+              <li><i class="fa fa-chevron-right"></i> <a href="trainers.html">Trainer's</a></li>
+              <li><i class="fa fa-chevron-right"></i> <a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="fa fa-chevron-right"></i> <a href="#">Web Design</a></li>
+              <li><i class="fa fa-chevron-right"></i> <a href="#">Web Development</a></li>
+              <li><i class="fa fa-chevron-right"></i> <a href="#">Product Management</a></li>
+              <li><i class="fa fa-chevron-right"></i> <a href="#">Marketing</a></li>
+              <li><i class="fa fa-chevron-right"></i> <a href="#">Graphic Design</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>Join Our Newsletter</h4>
+            <p>Subscribe our news letter to get our latest updates and Suggestions..</p>
+            <form class="form-group">
+              <input type="email" name="email" class="form-control"><input type="submit" value="Subscribe">
+            </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="container d-md-flex py-4">
+
+      <div class="me-md-auto text-center text-md-start">
+        <div class="copyright">
+          &copy; Copyright <strong><span>Ajay</span></strong>. All Rights Are Reserved
+        </div>
+      </div>
+      <div class="social-links text-center text-md-right pt-3 pt-md-0">
+        <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+        <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+        <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+        <a href="#" class="google-plus"><i class="fa fa-skype"></i></a>
+        <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+      </div>
+    </div>
+  </footer>
+  <scbootstrap.bundle.min.js"></script>
+  <script src="https://ajax.googleapis.cjquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.c1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstbootstrap.min.js"></script>
+</body>
+
+</html>

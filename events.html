@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Education Store | Events</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    #container {
+    height:350px; 
+    position:relative; 
+    overflow:hidden;
+  }
+  
+  .photobanner {
+    position:absolute; 
+    top:0px; 
+    left:0px; 
+    overflow:hidden; 
+    white-space: nowrap;
+    animation: bannermove 10s alternate infinite;
+  }
+  
+  .photobanner img {    
+    margin: 0 1.5em 
+  }
+  
+  @keyframes bannermove {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(-70%, 0);
+    }
+  }
+  </style>
+</head>
+
+<body>
+
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center">
+
+      <h1 class="logo me-auto"><a href="index.html">Education Store</a></h1>
+      <button type="button" class="btn btn-primary toggle" data-toggle="modal" data-target="#exampleModal">
+        <i class="fa fa-bars"></i>
+      </button>
+      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close btn btn-primary" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="trainers.html">Trainers</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+         <li><a  href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a class="active" href="events.html">Events</a></li>
+          <li><a href="trainers.html">Trainers</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <a href="courses.html" class="get-started-btn">Get Started</a>
+    </div>
+  </header>
+  <main id="main">
+    <div class="breadcrumbs" >
+      <div class="container">
+        <h2>Events</h2>
+      </div>
+    </div>
+    <section id="events" class="events">
+      <div class="container" >
+        <div class="row">
+          <div class="col-md-6 d-flex align-items-stretch">
+            <div class="card">
+              <div class="card-img">
+                <img src="events-1.jpg" width="100%" height="100%">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title"><a href="">Introduction to webdesign</a></h5>
+                <p class="fst-italic text-center">Sunday, September 26th at 7:00 pm</p>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 d-flex align-items-stretch">
+            <div class="card">
+              <div class="card-img">
+                <img src="events-2.jpg" width="100%"height="100%">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title"><a href="">Marketing Strategies</a></h5>
+                <p class="fst-italic text-center">Sunday, November 15th at 7:00 pm</p>
+                <p class="card-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 d-flex align-items-stretch">
+            <div class="card">
+              <div class="card-img">
+                <img src="event-3.jfif" width="100%"height="100%">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title"><a href="">Disco </a></h5>
+                <p class="fst-italic text-center">Sunday, October 26th at 6:00 pm</p>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 d-flex align-items-stretch">
+            <div class="card">
+              <div class="card-img">
+                <img src="event-4.jfif" width="100%"height="100%">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title"><a href="">Google-SDE</a></h5>
+                <p class="fst-italic text-center">Sunday, January 8th at 7:00 pm</p>
+                <p class="card-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 d-flex align-items-stretch">
+            <div class="card">
+              <div class="card-img">
+                <img src="event-5.png" width="100%"height="100%">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title"><a href="">Programmers Day</a></h5>
+                <p class="fst-italic text-center">Sunday, September 13th at 10:00 am</p>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 d-flex align-items-stretch">
+            <div class="card">
+              <div class="card-img">
+                <img src="event-6.jfif" width="100%"height="100%">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title"><a href="">Flash-Mob</a></h5>
+                <p class="fst-italic text-center">Friday, October 19th at 3:30 pm</p>
+                <p class="card-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+      <div class="row">
+    <div class="col-md-12">
+      <div id="container">
+        <div class="photobanner">
+          <img src="events-1.jpg" alt="" height="320px">
+          <img src="events-2.jpg" alt=""height="320px">
+          <img src="event-3.jfif" alt=""height="320px">
+          <img src="event-4.jfif" alt=""height="320px">
+          <img src="event-5.png" alt=""height="320px">
+          <img src="event-6.jfif" alt=""height="320px">
+        </div>
+      </div>
+    </div>
+  </div>
+    </section>
+  </main>
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>Education Store</h3>
+            <p>
+              India <br><br>
+              <strong>Phone:</strong> +91 3449439XXX<br>
+              <strong>Email:</strong> email-name@email.com<br>
+            </p>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="fa fa-chevron-right"></i> <a href="index.html">Home</a></li>
+              <li><i class="fa fa-chevron-right"></i> <a href="about.html">About us</a></li>
+              <li><i class="fa fa-chevron-right"></i> <a href="courses.html">Courses</a></li>
+              <li><i class="fa fa-chevron-right"></i> <a href="trainers.html">Trainer's</a></li>
+              <li><i class="fa fa-chevron-right"></i> <a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="fa fa-chevron-right"></i> <a href="#">Web Design</a></li>
+              <li><i class="fa fa-chevron-right"></i> <a href="#">Web Development</a></li>
+              <li><i class="fa fa-chevron-right"></i> <a href="#">Product Management</a></li>
+              <li><i class="fa fa-chevron-right"></i> <a href="#">Marketing</a></li>
+              <li><i class="fa fa-chevron-right"></i> <a href="#">Graphic Design</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>Join Our Newsletter</h4>
+            <p>Subscribe our news letter to get our latest updates and Suggestions..</p>
+            <form class="form-group">
+              <input type="email" name="email" class="form-control"><input type="submit" value="Subscribe">
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container d-md-flex py-4">
+
+      <div class="me-md-auto text-center text-md-start">
+        <div class="copyright">
+          &copy; Copyright <strong><span>Ajay</span></strong>. All Rights Are Reserved
+        </div>
+      </div>
+      <div class="social-links text-center text-md-right pt-3 pt-md-0">
+        <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+        <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+        <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+        <a href="#" class="google-plus"><i class="fa fa-skype"></i></a>
+        <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+      </div>
+    </div>
+  </footer>
+  <script src="bootstrap.bundle.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
