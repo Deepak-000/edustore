@@ -11,7 +11,7 @@ a {
   color: #5fcf80;
   text-decoration: none;
 }
-.modal .active{
+.modal > .active{
   padding:10px 15px;
   color:red;
   font-family:cursive;
