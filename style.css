@@ -11,15 +11,15 @@ a {
   color: #5fcf80;
   text-decoration: none;
 }
-.modal > .active{
-  padding:10px 15px;
-  color:red;
-  font-family:cursive;
+.modal .modal-dialog .modal-content .modal-body ul li .active{
+  padding:10px 15px !important;
+  color:red !important;
+  font-family:cursive !important;
 }
-.modal .active:hover{
-  border:1px solid red;
+.modal .modal-dialog .modal-content .modal-body ul li .active:hover{
+  border:1px solid red !important;
   box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
-    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3) !important;
 }
 a:hover {
   color: #86db9f;
